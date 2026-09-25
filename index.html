@@ -3,9 +3,25 @@
     <head>
         <meta charset="UTF-8">
         <title>editor1</title>
-        <!--link rel="stylesheet" href="style.css"-->
+        <style>
+            body {
+                margin: 0px;
+                padding: 20px;
+                background-color: rgba(20, 20, 20, 1);
+            }
+
+            textarea {
+                margin: 0px;
+                padding: 10px;
+                width: 600px;
+                height: 600px;
+                font-family: monospace;
+                font-size: 12px;
+                background-color: rgba(40, 40, 40, 1);
+            }
+        </style>
     </head>
     <body>
-        <input type="textarea">
+        <textarea id="editor" spellcheck="false"></textarea>
     </body>
 </html>
